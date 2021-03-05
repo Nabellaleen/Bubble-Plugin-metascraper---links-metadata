@@ -1,0 +1,33 @@
+{
+    "category": "plugins",
+    "display": "Metascraper - Extract a list of metadata",
+    "fields": {
+        "AAD": {
+            "caption": "URLs to extract",
+            "doc": "",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "urls",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Metadata Type",
+            "doc": "This field has to be filled with `API Call (Metascraper)` type",
+            "editor": "custom_type",
+            "name": "Metadata",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAH": {
+            "caption": "Metadata List",
+            "is_list": true,
+            "name": "metadata_list",
+            "rank": 0,
+            "value": "custom_data_AAI"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

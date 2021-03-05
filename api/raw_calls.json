@@ -1,0 +1,16 @@
+{
+    "calls": {
+        "AAG": {
+            "initialized": true,
+            "method": "get",
+            "name": "Metadata",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1614938963655x398825367519625200.plugin_api.AAG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAG\":{\"caption\":\"API Call\",\"fields\":{\"_p_author\":{\"ret_value\":\"text\",\"caption\":\"author\",\"sample_value\":\"author\",\"path\":[\"author\"]},\"_p_date\":{\"ret_value\":\"date\",\"caption\":\"date\",\"sample_value\":\"2019-05-25T05:33:42.644Z\",\"path\":[\"date\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Search the world’s information, including webpages, images, videos and more. Google has many special features to help you find exactly what you’re looking for.\",\"path\":[\"description\"]},\"_p_image\":{\"ret_value\":\"image\",\"caption\":\"image\",\"sample_value\":\"https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png\",\"path\":[\"image\"]},\"_p_logo\":{\"ret_value\":\"image\",\"caption\":\"logo\",\"sample_value\":\"https://logo.clearbit.com/google.com\",\"path\":[\"logo\"]},\"_p_publisher\":{\"ret_value\":\"text\",\"caption\":\"publisher\",\"sample_value\":\"Google\",\"path\":[\"publisher\"]},\"_p_title\":{\"ret_value\":\"text\",\"caption\":\"title\",\"sample_value\":\"Google\",\"path\":[\"title\"]},\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"sample_value\":\"https://www.google.com/\",\"path\":[\"url\"]}}}}",
+            "url": ""
+        }
+    },
+    "human": "Metascraper"
+}
