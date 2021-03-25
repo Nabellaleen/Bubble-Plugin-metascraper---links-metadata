@@ -3,10 +3,10 @@
         "0": "web scraping"
     },
     "demo_page": "https://metascraper-demo.bubbleapps.io/version-test",
-    "description": "This plugin allows you to extract metadata from any site on demand.\n\nThe metadata of a link is for example the title, description and image that are displayed when posting its URL on social networks.\n\nThis plugin is based on metascraper and combine many standards (Open Graph, Twitter, ...) for greater reliability.",
+    "description": "This plugin allows you to extract metadata from any site on demand.\n\nThe metadata of a link is for example the title, description and image that are displayed when posting its URL on social networks.\n\nThis plugin is based on metascraper and combine many standards (Open Graph, Twitter, ...) for greater reliability.\n\n---\n\nFeel free to ask for any improvements on the forum thread. I can also develop plugin on demand if you need ones !",
     "image": "//s3.amazonaws.com/appforest_uf/f1614960952668x543386757850699200/MetascraperLogo.png",
     "license": "open_source",
-    "link": "https://metascraper-demo.bubbleapps.io/version-test",
+    "link": "https://forum.bubble.io/t/new-plugin-metascraper-extract-metadata-from-any-link/139721",
     "name": "metascraper - links metadata",
     "plugin_instructions": "This plugin allows you to extract metadata from any site on demand.\n\nThe metadata of a link is for example the title, description and image that are displayed when posting its URL on social networks.\n\n# Usage\n\nThis plugin adds an `API Call (Metascraper)` type used to represent the extracted metadata.\n\nMetadata extraction is done through the action `Plugins > Metascraper - Extract a list of metadata`, which takes as parameter :\n- URLs to extract: the list of URLs to be analyzed.\n- Metadata Type: the type `API Call (Metascraper)` provided by the plugin\n\n# Types of metadata\n\nIn this first version, the extracted metadata are the following parameters:\n- Author\n- Date\n- Description\n- Image\n- Logo (clearbit)\n- Publisher\n- Title\n- URL\n\nThis plugin uses the https://metascraper.js.org library and tries to extract these parameters by taking a maximum of standards into account (Open Graph, Twitter, ...) for greater reliability."
 }
